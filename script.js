@@ -1,6 +1,6 @@
 /**
- * Velity — Landing interactions
- * Sections: loader, nav, smooth scroll, scroll spy, reveals, form validation
+ * Velity — Interacciones del landing (es-AR)
+ * Loader, navegación, scroll suave, scroll spy, revelado al scroll, validación del formulario
  */
 
 (function () {
@@ -49,7 +49,7 @@
   function setMenuOpen(open) {
     if (!navToggle || !navMenu) return;
     navToggle.setAttribute("aria-expanded", open ? "true" : "false");
-    navToggle.setAttribute("aria-label", open ? "Close menu" : "Open menu");
+    navToggle.setAttribute("aria-label", open ? "Cerrar menú" : "Abrir menú");
     navMenu.classList.toggle("is-open", open);
     navToggle.classList.toggle("is-open", open);
     document.body.style.overflow = open ? "hidden" : "";
@@ -191,7 +191,7 @@
       if (nameInput.value.trim().length < 2) {
         ok = false;
         nameInput.classList.add("is-invalid");
-        if (nameError) nameError.textContent = "Please enter your name (at least 2 characters).";
+        if (nameError) nameError.textContent = "Ingresá tu nombre (al menos 2 letras).";
       }
     }
 
@@ -199,7 +199,7 @@
       if (!isValidEmail(emailInput.value)) {
         ok = false;
         emailInput.classList.add("is-invalid");
-        if (emailError) emailError.textContent = "Please enter a valid email address.";
+        if (emailError) emailError.textContent = "Ingresá un correo electrónico válido.";
       }
     }
 
@@ -207,7 +207,7 @@
       if (!typeSelect.value) {
         ok = false;
         typeSelect.classList.add("is-invalid");
-        if (typeError) typeError.textContent = "Please select your user type.";
+        if (typeError) typeError.textContent = "Elegí tu tipo de usuario.";
       }
     }
 
@@ -215,7 +215,7 @@
       if (messageInput.value.trim().length < 10) {
         ok = false;
         messageInput.classList.add("is-invalid");
-        if (messageError) messageError.textContent = "Message should be at least 10 characters.";
+        if (messageError) messageError.textContent = "El mensaje tiene que tener al menos 10 caracteres.";
       }
     }
 
@@ -228,7 +228,7 @@
       if (!validate()) return;
 
       submitBtn.disabled = true;
-      submitBtn.textContent = "Sending…";
+      submitBtn.textContent = "Enviando…";
 
       window.setTimeout(function () {
         form.classList.add("is-success");
@@ -236,7 +236,7 @@
           successBox.removeAttribute("hidden");
         }
         submitBtn.disabled = false;
-        submitBtn.textContent = "Send message";
+        submitBtn.textContent = "Enviar mensaje";
         form.reset();
       }, 650);
     });

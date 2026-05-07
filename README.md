@@ -1,6 +1,8 @@
 # Velity — Landing page
 
-Landing estática y responsive para **Velity**, un ecosistema digital de salud que centraliza historial clínico, recetas, estudios, citas e interacción paciente–médico.
+Landing estática y responsive para **Velity**, un ecosistema digital de salud que centraliza historial clínico, recetas, estudios, turnos médicos e interacción paciente–médico.
+
+**Idioma:** interfaz y textos en **español rioplatense (Argentina)** (`lang="es-AR"`), con voseo en imperativos y microcopy (por ejemplo: «Conocé más», «Probalo ahora», «Escribinos»).
 
 ## Requisitos
 
@@ -19,8 +21,8 @@ No se necesita Node.js, npm ni servidor para ver el sitio en local.
 
 ## Cómo ver el proyecto
 
-1. Abre `index.html` en el navegador (doble clic o arrastra el archivo a una ventana del navegador).
-2. Opcional: sirve la carpeta con un servidor estático si quieres evitar advertencias CORS en entornos estrictos, por ejemplo:
+1. Abrí `index.html` en el navegador (doble clic o arrastrá el archivo a una ventana del navegador).
+2. Opcional: serví la carpeta con un servidor estático si querés evitar advertencias CORS en entornos estrictos, por ejemplo:
    - VS Code: extensión “Live Server”.
    - Terminal: `npx serve .` (requiere Node.js solo para este comando).
 

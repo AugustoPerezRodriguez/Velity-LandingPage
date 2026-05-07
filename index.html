@@ -1,19 +1,19 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es-AR">
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta name="description" content="Velity — Centralize your medical history, prescriptions, and care in one secure digital health ecosystem for patients and doctors." />
-  <meta name="keywords" content="Velity, digital health, medical records, patient portal, doctor platform, healthcare" />
+  <meta name="description" content="Velity — Centralizá tu historial clínico, recetas, estudios y turnos en un solo lugar seguro. Conectá pacientes y médicos con una plataforma de salud digital moderna." />
+  <meta name="keywords" content="Velity, salud digital, historia clínica, recetas, turnos médicos, pacientes, médicos, Argentina" />
   <meta name="theme-color" content="#00C9A7" />
-  <title>Velity — Your health data, unified and secure</title>
+  <title>Velity — Tu información médica, unificada y segura</title>
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
-  <!-- Loading overlay -->
+  <!-- Pantalla de carga -->
   <div class="page-loader" id="pageLoader" aria-hidden="true">
     <div class="page-loader__inner">
       <span class="page-loader__logo">LOGO PLACEHOLDER</span>
@@ -21,7 +21,7 @@
     </div>
   </div>
 
-  <!-- Floating background blobs -->
+  <!-- Blobs de fondo -->
   <div class="bg-blobs" aria-hidden="true">
     <span class="blob blob--1"></span>
     <span class="blob blob--2"></span>
@@ -30,22 +30,22 @@
 
   <!-- ========== NAVBAR ========== -->
   <header class="site-header" id="siteHeader">
-    <nav class="nav container" aria-label="Primary">
+    <nav class="nav container" aria-label="Navegación principal">
       <a href="#home" class="nav__brand">
         <span class="placeholder placeholder--logo nav__logo">LOGO PLACEHOLDER</span>
         <span class="nav__name">Velity</span>
       </a>
-      <button type="button" class="nav__toggle" id="navToggle" aria-expanded="false" aria-controls="navMenu" aria-label="Open menu">
+      <button type="button" class="nav__toggle" id="navToggle" aria-expanded="false" aria-controls="navMenu" aria-label="Abrir menú">
         <span></span><span></span><span></span>
       </button>
       <ul class="nav__menu" id="navMenu">
-        <li><a href="#home" class="nav__link">Home</a></li>
-        <li><a href="#features" class="nav__link">Features</a></li>
-        <li><a href="#doctors" class="nav__link">Doctors</a></li>
-        <li><a href="#patients" class="nav__link">Patients</a></li>
-        <li><a href="#pricing" class="nav__link">Pricing</a></li>
-        <li><a href="#contact" class="nav__link">Contact</a></li>
-        <li class="nav__cta-wrap"><a href="#contact" class="btn btn--primary btn--sm">Get Started</a></li>
+        <li><a href="#home" class="nav__link">Inicio</a></li>
+        <li><a href="#features" class="nav__link">Funcionalidades</a></li>
+        <li><a href="#patients" class="nav__link">Pacientes</a></li>
+        <li><a href="#doctors" class="nav__link">Médicos</a></li>
+        <li><a href="#pricing" class="nav__link">Planes</a></li>
+        <li><a href="#contact" class="nav__link">Contacto</a></li>
+        <li class="nav__cta-wrap"><a href="#contact" class="btn btn--primary btn--sm">Comenzar</a></li>
       </ul>
     </nav>
   </header>
@@ -55,46 +55,46 @@
     <section class="hero section" id="home">
       <div class="container hero__grid">
         <div class="hero__content reveal">
-          <p class="eyebrow">Digital health ecosystem</p>
-          <h1 class="hero__title">Your entire medical history, connected in one secure place.</h1>
+          <p class="eyebrow">Ecosistema de salud digital</p>
+          <h1 class="hero__title">Toda tu historia clínica, conectada en un solo lugar seguro.</h1>
           <p class="hero__lead">
-            Velity centralizes records, prescriptions, studies, and care workflows so patients and clinicians stay aligned—with privacy-first infrastructure built for the future of healthcare.
+            Velity centraliza estudios, recetas, turnos y comunicación con tu equipo de salud, con una infraestructura pensada para la privacidad y para escalar con el sistema de salud del futuro.
           </p>
           <div class="hero__actions">
-            <a href="#contact" class="btn btn--primary btn--glow">Start Now</a>
-            <a href="#about" class="btn btn--ghost">Learn More</a>
+            <a href="#contact" class="btn btn--primary btn--glow">Probalo ahora</a>
+            <a href="#about" class="btn btn--ghost">Conocé más</a>
           </div>
           <ul class="hero__bullets">
-            <li>Unified medical data</li>
-            <li>Smarter patient–doctor communication</li>
-            <li>Ready for integrations &amp; scale</li>
+            <li>Datos médicos unificados y ordenados</li>
+            <li>Mejor coordinación entre pacientes y médicos</li>
+            <li>Listo para integraciones y crecimiento</li>
           </ul>
         </div>
         <div class="hero__visual reveal reveal--delay">
           <div class="hero__mockup glass-card">
-            <span class="placeholder placeholder--screen">APP SCREEN PLACEHOLDER</span>
+            <span class="placeholder placeholder--screen">PLACEHOLDER MOCKUP DE APP</span>
           </div>
           <div class="hero__float-card glass-card hero__float-card--1">
-            <strong>Encrypted</strong>
-            <span>End-to-end ready</span>
+            <strong>Cifrado</strong>
+            <span>Tránsito y almacenamiento protegidos</span>
           </div>
           <div class="hero__float-card glass-card hero__float-card--2">
-            <strong>Sync</strong>
-            <span>All your devices</span>
+            <strong>Sincronización</strong>
+            <span>Misma información en tu celular o PC</span>
           </div>
         </div>
       </div>
       <div class="section-wave" aria-hidden="true"></div>
     </section>
 
-    <!-- ========== ABOUT ========== -->
+    <!-- ========== QUÉ ES VELITY ========== -->
     <section class="about section" id="about">
       <div class="container">
         <header class="section-header reveal">
-          <p class="eyebrow">About Velity</p>
-          <h2 class="section-title">One ecosystem for fragmented care</h2>
+          <p class="eyebrow">Sobre Velity</p>
+          <h2 class="section-title">Un ecosistema para la atención fragmentada</h2>
           <p class="section-desc">
-            Healthcare data is scattered across portals, PDFs, and memory. Velity exists to give people and professionals a single, trustworthy home for medical information—organized, accessible, and secure.
+            Los datos de salud suelen estar repartidos entre portales, PDFs y mensajes sueltos. Velity les da a las personas y a los equipos médicos un lugar único, claro y seguro para la información clínica: organizada, accesible y bajo buenas prácticas de seguridad.
           </p>
         </header>
         <div class="about__grid">
@@ -102,309 +102,309 @@
             <div class="info-card__icon" aria-hidden="true">
               <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"/></svg>
             </div>
-            <h3>What Velity is</h3>
-            <p>A modern platform to store, manage, and share medical history, prescriptions, diagnostics, vaccines, allergies, medications, appointments, and monitoring data—in one coherent profile.</p>
+            <h3>Qué es Velity</h3>
+            <p>Una plataforma para guardar, gestionar y compartir historia clínica, recetas, diagnósticos, vacunas, alergias, medicación, turnos y datos de monitoreo, todo en un perfil coherente y portable.</p>
           </article>
           <article class="info-card glass-card reveal">
             <div class="info-card__icon" aria-hidden="true">
               <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="12" cy="12" r="10"/><path d="M12 6v6l4 2"/></svg>
             </div>
-            <h3>Why it exists</h3>
-            <p>Patients lose context. Clinics lose time. Velity reduces friction with clarity, structure, and tools designed for real-world care—not bolted-on spreadsheets.</p>
+            <h3>Por qué existe</h3>
+            <p>Los pacientes pierden contexto y los consultorios pierden tiempo. Velity reduce la fricción con claridad, estructura y herramientas pensadas para el día a día de la atención, no planillas improvisadas.</p>
           </article>
           <article class="info-card glass-card reveal">
             <div class="info-card__icon" aria-hidden="true">
               <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
             </div>
-            <h3>Vision</h3>
-            <p>Become the health ecosystem where users and professionals interact intelligently—with secure data exchange, thoughtful UX, and room for the integrations healthcare will need next.</p>
+            <h3>Visión</h3>
+            <p>Ser el ecosistema de salud donde usuarios y profesionales interactúan con criterio, con intercambio seguro de datos, una experiencia cuidada y espacio para las integraciones que el sistema va a necesitar.</p>
           </article>
         </div>
       </div>
     </section>
 
-    <!-- ========== FEATURES ========== -->
+    <!-- ========== FUNCIONALIDADES ========== -->
     <section class="features section" id="features">
       <div class="container">
         <header class="section-header reveal">
-          <p class="eyebrow">Capabilities</p>
-          <h2 class="section-title">Everything your health story needs</h2>
-          <p class="section-desc">Powerful modules for patients, doctors, and clinics—designed for clarity and trust.</p>
+          <p class="eyebrow">Capacidades</p>
+          <h2 class="section-title">Todo lo que tu historia de salud necesita</h2>
+          <p class="section-desc">Módulos potentes para pacientes, médicos y clínicas, pensados para generar confianza y claridad.</p>
         </header>
         <div class="feature-grid">
-          <article class="feature-card reveal"><div class="feature-card__icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><path d="M14 2v6h6M16 13H8M16 17H8M10 9H8"/></svg></div><h3>Centralized history</h3><p>One timeline for visits, notes, and outcomes—always within reach.</p></article>
-          <article class="feature-card reveal"><div class="feature-card__icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z"/></svg></div><h3>Secure cloud storage</h3><p>Medical-grade posture with encryption and resilient infrastructure.</p></article>
-          <article class="feature-card reveal"><div class="feature-card__icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="3" y="4" width="18" height="18" rx="2"/><path d="M16 2v4M8 2v4M3 10h18"/></svg></div><h3>Appointments</h3><p>Schedule, reschedule, and stay on top of your care calendar.</p></article>
-          <article class="feature-card reveal"><div class="feature-card__icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M12 8v4l3 3M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0z"/></svg></div><h3>Smart doctor agenda</h3><p>Intuitive blocks, priorities, and quick context between visits.</p></article>
-          <article class="feature-card reveal"><div class="feature-card__icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4M17 8l-5-5-5 5M12 3v12"/></svg></div><h3>Study uploads</h3><p>Imaging, labs, and PDFs—organized with metadata you can search.</p></article>
-          <article class="feature-card reveal"><div class="feature-card__icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"/><path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"/></svg></div><h3>Prescriptions</h3><p>Track active meds, dosages, and renewals with fewer errors.</p></article>
-          <article class="feature-card reveal"><div class="feature-card__icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M22 12h-4l-3 9L9 3l-3 9H2"/></svg></div><h3>Vaccination tracking</h3><p>Proof, schedules, and boosters in a single immunization view.</p></article>
-          <article class="feature-card reveal"><div class="feature-card__icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M18 8A6 6 0 0 0 6 8c0 7-3 9-3 9h18s-3-2-3-9"/><path d="M13.73 21a2 2 0 0 1-3.46 0"/></svg></div><h3>Medication reminders</h3><p>Gentle nudges that respect routines and time zones.</p></article>
-          <article class="feature-card reveal"><div class="feature-card__icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M22 12h-4l-3 9L9 3l-3 9H2"/></svg></div><h3>Patient monitoring</h3><p>Trends for vitals and home metrics with clear visualization.</p></article>
-          <article class="feature-card reveal"><div class="feature-card__icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87M16 3.13a4 4 0 0 1 0 7.75"/></svg></div><h3>Doctor–patient chat</h3><p>Structured messaging that keeps clinical context attached.</p></article>
-          <article class="feature-card reveal"><div class="feature-card__icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="2" y="3" width="20" height="14" rx="2"/><path d="M8 21h8M12 17v4"/></svg></div><h3>Cross-device sync</h3><p>Phone, tablet, or web—your profile stays consistent.</p></article>
-          <article class="feature-card reveal"><div class="feature-card__icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M18 8A6 6 0 0 0 6 8c0 7-3 9-3 9h18s-3-2-3-9"/><path d="M13.73 21a2 2 0 0 1-3.46 0"/></svg></div><h3>Smart notifications</h3><p>Actionable alerts for appointments, refills, and follow-ups.</p></article>
-          <article class="feature-card reveal"><div class="feature-card__icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M3 3v18h18"/><path d="M18 17V9M13 17V5M8 17v-3"/></svg></div><h3>Health analytics</h3><p>Insights that translate raw data into next steps you understand.</p></article>
-          <article class="feature-card reveal"><div class="feature-card__icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="12" cy="12" r="10"/><path d="M12 8v4M12 16h.01"/></svg></div><h3>Emergency access</h3><p>Critical allergies and conditions surfaced when seconds matter.</p></article>
+          <article class="feature-card reveal"><div class="feature-card__icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><path d="M14 2v6h6M16 13H8M16 17H8M10 9H8"/></svg></div><h3>Historial médico centralizado</h3><p>Una línea de tiempo con consultas, notas y resultados, siempre a mano.</p></article>
+          <article class="feature-card reveal"><div class="feature-card__icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z"/></svg></div><h3>Almacenamiento seguro en la nube</h3><p>Cifrado e infraestructura resiliente, alineados a estándares de health-tech.</p></article>
+          <article class="feature-card reveal"><div class="feature-card__icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="3" y="4" width="18" height="18" rx="2"/><path d="M16 2v4M8 2v4M3 10h18"/></svg></div><h3>Turnos médicos</h3><p>Agendá, reprogramá y mantené al día tu calendario de atención.</p></article>
+          <article class="feature-card reveal"><div class="feature-card__icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M12 8v4l3 3M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0z"/></svg></div><h3>Agenda inteligente para médicos</h3><p>Bloques intuitivos, prioridades y contexto rápido entre un turno y otro.</p></article>
+          <article class="feature-card reveal"><div class="feature-card__icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4M17 8l-5-5-5 5M12 3v12"/></svg></div><h3>Carga de estudios</h3><p>Imágenes, laboratorio y PDFs, con metadatos para buscar sin perder tiempo.</p></article>
+          <article class="feature-card reveal"><div class="feature-card__icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"/><path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"/></svg></div><h3>Recetas y medicación</h3><p>Seguimiento de medicación activa, dosis y renovaciones con menos errores.</p></article>
+          <article class="feature-card reveal"><div class="feature-card__icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M22 12h-4l-3 9L9 3l-3 9H2"/></svg></div><h3>Calendario de vacunas</h3><p>Esquemas, refuerzos y constancias en una sola vista.</p></article>
+          <article class="feature-card reveal"><div class="feature-card__icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M18 8A6 6 0 0 0 6 8c0 7-3 9-3 9h18s-3-2-3-9"/><path d="M13.73 21a2 2 0 0 1-3.46 0"/></svg></div><h3>Recordatorios de medicación</h3><p>Avisos discretos que respetan tus rutinas y tu zona horaria.</p></article>
+          <article class="feature-card reveal"><div class="feature-card__icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M22 12h-4l-3 9L9 3l-3 9H2"/></svg></div><h3>Monitoreo del paciente</h3><p>Tendencias de signos y mediciones en casa, con gráficos claros.</p></article>
+          <article class="feature-card reveal"><div class="feature-card__icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87M16 3.13a4 4 0 0 1 0 7.75"/></svg></div><h3>Comunicación médico–paciente</h3><p>Mensajes estructurados con el contexto clínico adjunto.</p></article>
+          <article class="feature-card reveal"><div class="feature-card__icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="2" y="3" width="20" height="14" rx="2"/><path d="M8 21h8M12 17v4"/></svg></div><h3>Sincronización entre dispositivos</h3><p>Celular, tablet o web: el mismo perfil, siempre actualizado.</p></article>
+          <article class="feature-card reveal"><div class="feature-card__icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M18 8A6 6 0 0 0 6 8c0 7-3 9-3 9h18s-3-2-3-9"/><path d="M13.73 21a2 2 0 0 1-3.46 0"/></svg></div><h3>Notificaciones inteligentes</h3><p>Alertas accionables para turnos, renovaciones y controles.</p></article>
+          <article class="feature-card reveal"><div class="feature-card__icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M3 3v18h18"/><path d="M18 17V9M13 17V5M8 17v-3"/></svg></div><h3>Analíticas de salud</h3><p>Indicadores que traducen datos en próximos pasos entendibles.</p></article>
+          <article class="feature-card reveal"><div class="feature-card__icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="12" cy="12" r="10"/><path d="M12 8v4M12 16h.01"/></svg></div><h3>Acceso en emergencias</h3><p>Alergias y condiciones críticas visibles cuando los segundos importan.</p></article>
         </div>
       </div>
       <div class="section-wave section-wave--flip" aria-hidden="true"></div>
     </section>
 
-    <!-- ========== PATIENTS ========== -->
+    <!-- ========== PACIENTES ========== -->
     <section class="patients section" id="patients">
       <div class="container patients__grid">
         <div class="patients__visual reveal">
           <div class="patients__mockup glass-card">
-            <span class="placeholder placeholder--mobile">MOBILE APP PLACEHOLDER</span>
+            <span class="placeholder placeholder--mobile">PLACEHOLDER APP CELULAR</span>
           </div>
         </div>
         <div class="patients__content reveal">
-          <p class="eyebrow">For patients</p>
-          <h2 class="section-title">Your health profile, finally organized</h2>
-          <p class="section-desc">Velity puts you in control with a calm, guided experience—built for clarity, not clutter.</p>
+          <p class="eyebrow">Para pacientes</p>
+          <h2 class="section-title">Tu perfil de salud, finalmente ordenado</h2>
+          <p class="section-desc">Velity te pone al mando con una experiencia tranquila y guiada: clara, sin ruido y pensada para el uso diario en Argentina y la región.</p>
           <ul class="checklist">
-            <li><span class="checklist__icon" aria-hidden="true">✓</span> Personal medical profile &amp; longitudinal history</li>
-            <li><span class="checklist__icon" aria-hidden="true">✓</span> Upload studies &amp; reports with smart tagging</li>
-            <li><span class="checklist__icon" aria-hidden="true">✓</span> Medication tracking &amp; adherence support</li>
-            <li><span class="checklist__icon" aria-hidden="true">✓</span> Appointment booking &amp; reminders</li>
-            <li><span class="checklist__icon" aria-hidden="true">✓</span> Health reminders tuned to your routines</li>
-            <li><span class="checklist__icon" aria-hidden="true">✓</span> Emergency data card for critical context</li>
-            <li><span class="checklist__icon" aria-hidden="true">✓</span> Share records securely with your care team</li>
+            <li><span class="checklist__icon" aria-hidden="true">✓</span> Perfil médico personal e historia clínica accesible</li>
+            <li><span class="checklist__icon" aria-hidden="true">✓</span> Carga de estudios e informes con etiquetas útiles</li>
+            <li><span class="checklist__icon" aria-hidden="true">✓</span> Seguimiento de medicación y adherencia</li>
+            <li><span class="checklist__icon" aria-hidden="true">✓</span> Reserva y gestión de turnos médicos</li>
+            <li><span class="checklist__icon" aria-hidden="true">✓</span> Recordatorios de salud adaptados a tu rutina</li>
+            <li><span class="checklist__icon" aria-hidden="true">✓</span> Ficha de datos críticos para urgencias o guardias</li>
+            <li><span class="checklist__icon" aria-hidden="true">✓</span> Compartí registros de forma segura con tu médico o médica</li>
           </ul>
-          <a href="#pricing" class="btn btn--primary">Explore plans</a>
+          <a href="#pricing" class="btn btn--primary">Ver planes</a>
         </div>
       </div>
     </section>
 
-    <!-- ========== DOCTORS ========== -->
+    <!-- ========== MÉDICOS ========== -->
     <section class="doctors section" id="doctors">
       <div class="container">
         <header class="section-header reveal">
-          <p class="eyebrow">For clinicians</p>
-          <h2 class="section-title">The new Velity doctor profile</h2>
-          <p class="section-desc">A premium workspace to manage patients, documentation, and time—with the same calm precision your patients feel on their side of the platform.</p>
+          <p class="eyebrow">Para el equipo clínico</p>
+          <h2 class="section-title">El nuevo perfil médico de Velity</h2>
+          <p class="section-desc">Un espacio de trabajo premium para gestionar pacientes, documentación y tiempo, con la misma precisión tranquila que tus pacientes perciben del lado de la app.</p>
         </header>
         <div class="doctors__showcase">
           <div class="doctors__panel doctors__panel--main glass-card reveal">
-            <span class="placeholder placeholder--dashboard">DOCTOR PANEL PLACEHOLDER</span>
+            <span class="placeholder placeholder--dashboard">PLACEHOLDER PANEL MÉDICO</span>
             <div class="doctors__panel-meta">
-              <span>Live patient context</span>
-              <span class="pill">Smart workspace</span>
+              <span>Contexto del paciente en vivo</span>
+              <span class="pill">Espacio de trabajo inteligente</span>
             </div>
           </div>
           <div class="doctors__side">
             <div class="doctors__mini glass-card reveal">
-              <span class="placeholder placeholder--agenda">AGENDA PREVIEW PLACEHOLDER</span>
+              <span class="placeholder placeholder--agenda">PLACEHOLDER VISTA DE AGENDA</span>
             </div>
             <div class="doctors__mini glass-card reveal">
-              <span class="placeholder placeholder--patients">PATIENT MANAGEMENT UI PLACEHOLDER</span>
+              <span class="placeholder placeholder--patients">PLACEHOLDER GESTIÓN DE PACIENTES</span>
             </div>
           </div>
         </div>
         <ul class="doctors__features">
-          <li class="glass-card reveal">Manage patients &amp; longitudinal charts</li>
-          <li class="glass-card reveal">Access full clinical history in seconds</li>
-          <li class="glass-card reveal">Edit medical information with audit-friendly flows</li>
-          <li class="glass-card reveal">Upload &amp; manage prescriptions digitally</li>
-          <li class="glass-card reveal">Add diagnoses with structured templates</li>
-          <li class="glass-card reveal">Organize appointments &amp; follow-ups</li>
-          <li class="glass-card reveal">Intuitive smart agenda with conflict awareness</li>
-          <li class="glass-card reveal">Follow patient evolution over time</li>
-          <li class="glass-card reveal">Studies &amp; reports in one clinical feed</li>
-          <li class="glass-card reveal">Schedule management across locations</li>
-          <li class="glass-card reveal">Richer doctor–patient communication</li>
+          <li class="glass-card reveal">Gestioná pacientes y historias de largo plazo</li>
+          <li class="glass-card reveal">Accedé al historial clínico completo en segundos</li>
+          <li class="glass-card reveal">Editá información médica con flujos auditables</li>
+          <li class="glass-card reveal">Cargá y administrá recetas de forma digital</li>
+          <li class="glass-card reveal">Sumá diagnósticos con plantillas estructuradas</li>
+          <li class="glass-card reveal">Organizá turnos y seguimientos</li>
+          <li class="glass-card reveal">Agenda inteligente con detección de conflictos</li>
+          <li class="glass-card reveal">Seguimiento de la evolución del paciente</li>
+          <li class="glass-card reveal">Estudios e informes en un único feed clínico</li>
+          <li class="glass-card reveal">Gestión de horarios en varios consultorios</li>
+          <li class="glass-card reveal">Comunicación más rica con pacientes y familia</li>
         </ul>
       </div>
     </section>
 
-    <!-- ========== HOW IT WORKS ========== -->
+    <!-- ========== CÓMO FUNCIONA ========== -->
     <section class="how section" id="how">
       <div class="container">
         <header class="section-header reveal">
-          <p class="eyebrow">How it works</p>
-          <h2 class="section-title">From signup to smarter care</h2>
-          <p class="section-desc">A guided path that respects your time—whether you are onboarding as a patient or a practice.</p>
+          <p class="eyebrow">Cómo funciona</p>
+          <h2 class="section-title">Del registro a una atención más inteligente</h2>
+          <p class="section-desc">Un camino guiado que respeta tu tiempo, tanto si arrancás como paciente como si incorporás un consultorio.</p>
         </header>
         <ol class="timeline">
           <li class="timeline__step glass-card reveal">
             <span class="timeline__num">1</span>
-            <h3>Create your account</h3>
-            <p>Secure authentication and role-based profiles for patients, doctors, and clinics.</p>
+            <h3>Creá tu cuenta</h3>
+            <p>Autenticación segura y perfiles según rol: paciente, médico o institución.</p>
           </li>
           <li class="timeline__step glass-card reveal">
             <span class="timeline__num">2</span>
-            <h3>Upload medical information</h3>
-            <p>Import records, prescriptions, labs, and imaging—Velity structures them for search and sharing.</p>
+            <h3>Cargá tu información médica</h3>
+            <p>Importá historia clínica, recetas, laboratorio e imágenes; Velity los ordena para buscar y compartir.</p>
           </li>
           <li class="timeline__step glass-card reveal">
             <span class="timeline__num">3</span>
-            <h3>Connect with doctors</h3>
-            <p>Invite your care team, grant scoped access, and keep everyone aligned on the same facts.</p>
+            <h3>Conectá con tu equipo de salud</h3>
+            <p>Invitá a tu médico o médica, otorgá accesos acotados y mantené a todos alineados con los mismos datos.</p>
           </li>
           <li class="timeline__step glass-card reveal">
             <span class="timeline__num">4</span>
-            <h3>Manage health digitally</h3>
-            <p>Reminders, analytics, and messaging evolve with you as your ecosystem grows.</p>
+            <h3>Gestioná tu salud de forma digital</h3>
+            <p>Recordatorios, analíticas y mensajes evolucionan con vos a medida que crece tu ecosistema.</p>
           </li>
         </ol>
       </div>
     </section>
 
-    <!-- ========== PRICING ========== -->
+    <!-- ========== PLANES ========== -->
     <section class="pricing section" id="pricing">
       <div class="container">
         <header class="section-header reveal">
-          <p class="eyebrow">Plans</p>
-          <h2 class="section-title">Premium plans for every role</h2>
-          <p class="section-desc">Transparent tiers that scale from personal health to full clinical operations.</p>
+          <p class="eyebrow">Planes</p>
+          <h2 class="section-title">Planes pensados para cada rol</h2>
+          <p class="section-desc">Niveles transparentes que escalan desde el cuidado personal hasta la operación clínica completa.</p>
         </header>
         <div class="pricing__grid">
           <article class="price-card glass-card reveal">
-            <h3>Free</h3>
-            <p class="price-card__for">For individuals getting started</p>
-            <p class="price-card__price"><span class="price-card__currency">$</span><span class="price-card__amount">0</span><span class="price-card__period">/mo</span></p>
+            <h3>Plan gratuito</h3>
+            <p class="price-card__for">Para quienes empiezan de a poco</p>
+            <p class="price-card__price"><span class="price-card__currency">$</span><span class="price-card__amount">0</span><span class="price-card__period">/mes</span></p>
             <ul class="price-card__list">
-              <li>Basic medical history</li>
-              <li>Limited storage</li>
-              <li>Appointment reminders</li>
-              <li>Basic profile</li>
+              <li>Historial clínico básico</li>
+              <li>Almacenamiento limitado</li>
+              <li>Recordatorios de turnos</li>
+              <li>Perfil médico esencial</li>
             </ul>
-            <a href="#contact" class="btn btn--ghost btn--block">Get started</a>
+            <a href="#contact" class="btn btn--ghost btn--block">Crear cuenta</a>
           </article>
           <article class="price-card price-card--featured glass-card reveal">
-            <span class="price-card__badge">Recommended</span>
-            <h3>Premium Patient</h3>
-            <p class="price-card__for">For proactive health management</p>
-            <p class="price-card__price"><span class="price-card__currency">$</span><span class="price-card__amount">19</span><span class="price-card__period">/mo</span></p>
+            <span class="price-card__badge">Recomendado</span>
+            <h3>Plan Premium paciente</h3>
+            <p class="price-card__for">Para un manejo proactivo de la salud</p>
+            <p class="price-card__price"><span class="price-card__currency">US$</span><span class="price-card__amount">19</span><span class="price-card__period">/mes</span></p>
             <ul class="price-card__list">
-              <li>Unlimited storage</li>
-              <li>Advanced health analytics</li>
-              <li>Smart reminders</li>
-              <li>AI health summaries</li>
-              <li>Priority support</li>
-              <li>Advanced integrations</li>
+              <li>Almacenamiento ilimitado</li>
+              <li>Analíticas de salud avanzadas</li>
+              <li>Recordatorios inteligentes</li>
+              <li>Resúmenes de salud con IA (en roadmap)</li>
+              <li>Soporte prioritario</li>
+              <li>Integraciones avanzadas</li>
             </ul>
-            <a href="#contact" class="btn btn--primary btn--block btn--glow">Choose Premium</a>
+            <a href="#contact" class="btn btn--primary btn--block btn--glow">Elegir Premium</a>
           </article>
           <article class="price-card glass-card reveal">
-            <h3>Doctor</h3>
-            <p class="price-card__for">For practices &amp; clinicians</p>
-            <p class="price-card__price"><span class="price-card__currency">$</span><span class="price-card__amount">49</span><span class="price-card__period">/mo</span></p>
+            <h3>Plan Médicos</h3>
+            <p class="price-card__for">Para consultorios y equipos</p>
+            <p class="price-card__price"><span class="price-card__currency">US$</span><span class="price-card__amount">49</span><span class="price-card__period">/mes</span></p>
             <ul class="price-card__list">
-              <li>Full patient management</li>
-              <li>Smart agenda</li>
-              <li>Clinical editing tools</li>
-              <li>Prescription system</li>
-              <li>Analytics dashboard</li>
-              <li>Multi-patient organization</li>
+              <li>Gestión integral de pacientes</li>
+              <li>Agenda inteligente</li>
+              <li>Herramientas de edición clínica</li>
+              <li>Sistema de recetas</li>
+              <li>Panel de analíticas</li>
+              <li>Organización multi-paciente</li>
             </ul>
-            <a href="#contact" class="btn btn--ghost btn--block">Talk to sales</a>
+            <a href="#contact" class="btn btn--ghost btn--block">Hablar con ventas</a>
           </article>
         </div>
-        <p class="pricing__note reveal">Prices shown are placeholders for presentation. Final billing may vary by region and organization size.</p>
+        <p class="pricing__note reveal">Los valores son referenciales para presentación. La facturación final puede variar según país, impuestos y tamaño de la organización.</p>
       </div>
     </section>
 
-    <!-- ========== SECURITY ========== -->
+    <!-- ========== SEGURIDAD ========== -->
     <section class="security section" id="security">
       <div class="container security__grid">
         <div class="security__content reveal">
-          <p class="eyebrow">Security &amp; privacy</p>
-          <h2 class="section-title">Built for sensitive data</h2>
-          <p class="section-desc">Velity treats medical information with the seriousness it deserves—from encryption to transparent controls.</p>
+          <p class="eyebrow">Seguridad y privacidad</p>
+          <h2 class="section-title">Pensado para datos sensibles</h2>
+          <p class="section-desc">Velity trata la información médica con el rigor que merece: desde el cifrado hasta controles claros para el usuario.</p>
           <ul class="security__list">
-            <li><strong>Encrypted medical data</strong> at rest and in transit, aligned with modern health-tech standards.</li>
-            <li><strong>Privacy-first infrastructure</strong> with least-privilege access and clear data boundaries.</li>
-            <li><strong>Secure authentication</strong> including device-aware sessions and recovery flows.</li>
-            <li><strong>You stay in control</strong> of what is shared, with whom, and for how long.</li>
+            <li><strong>Datos médicos cifrados</strong> en reposo y en tránsito, alineados a buenas prácticas de salud digital.</li>
+            <li><strong>Infraestructura con foco en privacidad</strong>, acceso con mínimo privilegio y límites bien definidos.</li>
+            <li><strong>Autenticación segura</strong>, con sesiones conscientes del dispositivo y recuperación controlada.</li>
+            <li><strong>Vos decidís</strong> qué compartís, con quién y por cuánto tiempo.</li>
           </ul>
         </div>
         <div class="security__visual reveal">
           <div class="security__placeholder glass-card">
-            <span class="placeholder placeholder--shield">SECURITY VISUAL PLACEHOLDER</span>
+            <span class="placeholder placeholder--shield">PLACEHOLDER VISUAL DE SEGURIDAD</span>
           </div>
         </div>
       </div>
     </section>
 
-    <!-- ========== TESTIMONIALS ========== -->
+    <!-- ========== TESTIMONIOS ========== -->
     <section class="testimonials section" id="testimonials">
       <div class="container">
         <header class="section-header reveal">
-          <p class="eyebrow">Trusted voices</p>
-          <h2 class="section-title">Loved by patients &amp; doctors</h2>
+          <p class="eyebrow">Opiniones</p>
+          <h2 class="section-title">Pacientes y médicos que ya confían</h2>
         </header>
         <div class="testimonials__grid">
           <blockquote class="testimonial glass-card reveal">
-            <div class="testimonial__stars" aria-label="5 out of 5 stars">★★★★★</div>
-            <p>“Finally one place for my labs, imaging, and meds. Sharing with my cardiologist took two taps instead of two weeks of chasing PDFs.”</p>
-            <footer><cite>— Elena M., patient</cite></footer>
+            <div class="testimonial__stars" aria-label="Calificación cinco de cinco">★★★★★</div>
+            <p>«Por fin tengo laboratorio e imágenes en un solo lugar. Compartirle a mi cardióloga me llevó dos toques en lugar de dos semanas persiguiendo PDFs.»</p>
+            <footer><cite>— Elena M., paciente · CABA</cite></footer>
           </blockquote>
           <blockquote class="testimonial glass-card reveal">
-            <div class="testimonial__stars" aria-label="5 out of 5 stars">★★★★★</div>
-            <p>“The agenda and patient feed feel like a product team actually shadowed clinics. I see context before I walk into the room.”</p>
-            <footer><cite>— Dr. James Okoro, internal medicine</cite></footer>
+            <div class="testimonial__stars" aria-label="Calificación cinco de cinco">★★★★★</div>
+            <p>«La agenda y la vista de paciente se nota que la pensaron con quien labura en consultorio. Llego al turno con contexto antes de entrar al consultorio.»</p>
+            <footer><cite>— Dr. Javier Morales, medicina interna · Rosario</cite></footer>
           </blockquote>
           <blockquote class="testimonial glass-card reveal">
-            <div class="testimonial__stars" aria-label="5 out of 5 stars">★★★★★</div>
-            <p>“We piloted Velity with a small panel and cut duplicate intake questions dramatically. Patients notice the difference.”</p>
-            <footer><cite>— Dr. Priya Nair, family physician</cite></footer>
+            <div class="testimonial__stars" aria-label="Calificación cinco de cinco">★★★★★</div>
+            <p>«Hicimos una prueba con un grupo chico de pacientes y bajamos un montón las preguntas repetidas de anamnesis. Se nota en la calidad de la atención.»</p>
+            <footer><cite>— Dra. Mariana Vidal, medicina general · Mendoza</cite></footer>
           </blockquote>
         </div>
       </div>
     </section>
 
-    <!-- ========== CONTACT ========== -->
+    <!-- ========== CONTACTO ========== -->
     <section class="contact section" id="contact">
       <div class="container contact__grid">
         <div class="contact__intro reveal">
-          <p class="eyebrow">Contact</p>
-          <h2 class="section-title">Partner with Velity</h2>
-          <p class="section-desc">Request early access, book a demo for your clinic, or explore integrations. We respond thoughtfully—usually within one business day.</p>
+          <p class="eyebrow">Contacto</p>
+          <h2 class="section-title">Sumate a Velity como usuario o aliado</h2>
+          <p class="section-desc">Escribinos para acceso anticipado, demo para tu clínica o integraciones. Respondemos con criterio, en general en un día hábil.</p>
           <div class="contact__info">
-            <p><strong>Email</strong><br /><a href="mailto:hello@velity.health">hello@velity.health</a></p>
-            <p><strong>HQ</strong><br />Remote-first · Global health</p>
+            <p><strong>Correo</strong><br /><a href="mailto:hola@velity.app">hola@velity.app</a></p>
+            <p><strong>Equipo</strong><br />Remoto en Argentina y la región</p>
           </div>
-          <div class="social-row" aria-label="Social links (placeholders)">
+          <div class="social-row" aria-label="Redes sociales (placeholder)">
             <a href="#" class="social social--placeholder" aria-label="LinkedIn (placeholder)">in</a>
             <a href="#" class="social social--placeholder" aria-label="X (placeholder)">𝕏</a>
             <a href="#" class="social social--placeholder" aria-label="Instagram (placeholder)">◎</a>
           </div>
-          <a href="#pricing" class="btn btn--ghost">View pricing</a>
+          <a href="#pricing" class="btn btn--ghost">Ver precios</a>
         </div>
         <div class="contact__form-wrap glass-card reveal">
           <form class="contact-form" id="contactForm" novalidate>
             <div class="form-row">
-              <label for="contactName">Name <span class="req">*</span></label>
-              <input type="text" id="contactName" name="name" autocomplete="name" required minlength="2" placeholder="Your full name" />
+              <label for="contactName">Nombre y apellido <span class="req">*</span></label>
+              <input type="text" id="contactName" name="name" autocomplete="name" required minlength="2" placeholder="Ej.: Ana Gómez" />
               <span class="field-error" id="nameError" role="alert"></span>
             </div>
             <div class="form-row">
-              <label for="contactEmail">Email <span class="req">*</span></label>
-              <input type="email" id="contactEmail" name="email" autocomplete="email" required placeholder="you@example.com" />
+              <label for="contactEmail">Correo electrónico <span class="req">*</span></label>
+              <input type="email" id="contactEmail" name="email" autocomplete="email" required placeholder="nombre@ejemplo.com" />
               <span class="field-error" id="emailError" role="alert"></span>
             </div>
             <div class="form-row">
-              <label for="contactType">User type <span class="req">*</span></label>
+              <label for="contactType">Tipo de usuario <span class="req">*</span></label>
               <select id="contactType" name="userType" required>
-                <option value="">Select an option</option>
-                <option value="patient">Patient</option>
-                <option value="doctor">Doctor</option>
-                <option value="clinic">Clinic / Organization</option>
-                <option value="other">Other healthcare professional</option>
+                <option value="">Elegí una opción</option>
+                <option value="patient">Paciente</option>
+                <option value="doctor">Médico o médica</option>
+                <option value="clinic">Clínica u organización</option>
+                <option value="other">Otro profesional de la salud</option>
               </select>
               <span class="field-error" id="typeError" role="alert"></span>
             </div>
             <div class="form-row">
-              <label for="contactMessage">Message <span class="req">*</span></label>
-              <textarea id="contactMessage" name="message" rows="5" required minlength="10" placeholder="Tell us about your goals, timeline, or questions."></textarea>
+              <label for="contactMessage">Mensaje <span class="req">*</span></label>
+              <textarea id="contactMessage" name="message" rows="5" required minlength="10" placeholder="Contanos tu consulta, zona o interés en alianzas."></textarea>
               <span class="field-error" id="messageError" role="alert"></span>
             </div>
-            <button type="submit" class="btn btn--primary btn--block btn--glow" id="contactSubmit">Send message</button>
+            <button type="submit" class="btn btn--primary btn--block btn--glow" id="contactSubmit">Enviar mensaje</button>
             <div class="form-success" id="formSuccess" role="status" aria-live="polite" hidden>
               <span class="form-success__icon" aria-hidden="true">✓</span>
-              <p><strong>Message received.</strong> Thank you—we will get back to you shortly.</p>
+              <p><strong>Listo.</strong> Recibimos tu mensaje y te vamos a contactar a la brevedad.</p>
             </div>
           </form>
         </div>
@@ -417,16 +417,16 @@
     <div class="container footer__grid">
       <div class="footer__brand">
         <span class="placeholder placeholder--logo footer__logo">LOGO PLACEHOLDER</span>
-        <p class="footer__mission">Velity unifies medical information so patients and professionals can collaborate with confidence.</p>
+        <p class="footer__mission">Velity unifica la información médica para que pacientes y profesionales trabajen juntos con más confianza, también para quienes no cuentan con obra social o prepaga.</p>
       </div>
-      <nav class="footer__nav" aria-label="Footer">
-        <a href="#home">Home</a>
-        <a href="#features">Features</a>
-        <a href="#doctors">Doctors</a>
-        <a href="#patients">Patients</a>
-        <a href="#pricing">Pricing</a>
-        <a href="#security">Security</a>
-        <a href="#contact">Contact</a>
+      <nav class="footer__nav" aria-label="Pie de página">
+        <a href="#home">Inicio</a>
+        <a href="#features">Funcionalidades</a>
+        <a href="#doctors">Médicos</a>
+        <a href="#patients">Pacientes</a>
+        <a href="#pricing">Planes</a>
+        <a href="#security">Seguridad</a>
+        <a href="#contact">Contacto</a>
       </nav>
       <div class="footer__social">
         <span class="social social--placeholder" aria-hidden="true">in</span>
@@ -435,7 +435,7 @@
       </div>
     </div>
     <div class="footer__bottom container">
-      <p>&copy; <span id="year"></span> Velity. All rights reserved.</p>
+      <p>&copy; <span id="year"></span> Velity. Todos los derechos reservados.</p>
     </div>
   </footer>
 
