@@ -416,6 +416,12 @@
               <span class="form-success__icon" aria-hidden="true">✓</span>
               <p><strong>Listo.</strong> Recibimos tu mensaje y te vamos a contactar a la brevedad.</p>
             </div>
+            <!-- EmailJS: feedback de error (misma composición que éxito; estilos dedicados abajo en CSS) -->
+            <div class="form-send-error" id="formSendError" role="alert" aria-live="assertive" hidden>
+              <span class="form-send-error__icon" aria-hidden="true">!</span>
+              <p id="formSendErrorText"><strong>No se pudo enviar el mensaje.</strong> Verificá tu conexión o probá de nuevo en unos minutos.</p>
+              <button type="button" class="btn btn--ghost btn--block" id="formRetryButton">Volver al formulario</button>
+            </div>
           </form>
         </div>
       </div>
@@ -449,6 +455,8 @@
     </div>
   </footer>
 
+  <!-- EmailJS: envío real del formulario de contacto -->
+  <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
   <script src="script.js"></script>
 </body>
 </html>

@@ -1327,6 +1327,15 @@ button {
   display: flex;
 }
 
+/* EmailJS: estado de error de envío (misma lógica que is-success; no altera el resto del layout) */
+.contact-form.is-send-error .form-row,
+.contact-form.is-send-error #contactSubmit {
+  display: none;
+}
+.contact-form.is-send-error .form-send-error {
+  display: flex;
+}
+
 .form-row {
   margin-bottom: 1.15rem;
 }
@@ -1407,6 +1416,34 @@ button {
     opacity: 1;
     transform: scale(1);
   }
+}
+
+/* EmailJS: panel de error (misma estructura y animación que .form-success) */
+.form-send-error {
+  display: none;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  gap: 1rem;
+  padding: 2rem 1rem;
+  animation: successPop 0.55s cubic-bezier(0.34, 1.56, 0.64, 1) forwards;
+}
+.form-send-error__icon {
+  width: 64px;
+  height: 64px;
+  border-radius: 50%;
+  background: linear-gradient(135deg, #ef4444, #f87171);
+  color: #fff;
+  font-size: 1.75rem;
+  font-weight: 800;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 8px 28px rgba(239, 68, 68, 0.35);
+}
+.form-send-error p {
+  color: var(--color-muted);
+  max-width: 320px;
 }
 
 /* ============================================
