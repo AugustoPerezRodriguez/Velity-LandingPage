@@ -1206,8 +1206,22 @@ button {
 }
 
 .security__placeholder {
-  padding: 1rem;
+  padding: 0;
+  overflow: hidden;
   box-shadow: var(--shadow-md);
+}
+/* La imagen llena todo el recuadro (sin bandas blancas por contain/padding) */
+.security__placeholder .media-frame--security {
+  width: 100%;
+  aspect-ratio: 16 / 10;
+  border-radius: inherit;
+}
+.security__placeholder .media-frame--security img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center center;
+  display: block;
 }
 
 /* ============================================
