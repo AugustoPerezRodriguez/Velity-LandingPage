@@ -16,7 +16,7 @@
   <!-- Pantalla de carga -->
   <div class="page-loader" id="pageLoader" aria-hidden="true">
     <div class="page-loader__inner">
-      <span class="page-loader__logo">LOGO PLACEHOLDER</span>
+      <img class="page-loader__brand-img" src="img/velity logo.png" alt="Velity" width="140" height="40" />
       <div class="page-loader__bar"><span></span></div>
     </div>
   </div>
@@ -32,7 +32,7 @@
   <header class="site-header" id="siteHeader">
     <nav class="nav container" aria-label="Navegación principal">
       <a href="#home" class="nav__brand">
-        <span class="placeholder placeholder--logo nav__logo">LOGO PLACEHOLDER</span>
+        <img class="brand-logo nav__logo" src="img/velity logo.png" alt="Velity — inicio" width="120" height="36" />
         <span class="nav__name">Velity</span>
       </a>
       <button type="button" class="nav__toggle" id="navToggle" aria-expanded="false" aria-controls="navMenu" aria-label="Abrir menú">
@@ -72,7 +72,9 @@
         </div>
         <div class="hero__visual reveal reveal--delay">
           <div class="hero__mockup glass-card">
-            <span class="placeholder placeholder--screen">PLACEHOLDER MOCKUP DE APP</span>
+            <div class="media-frame media-frame--hero">
+              <img src="img/img historial.png" alt="Velity — pantalla principal con acceso a Historial y resumen de salud" width="900" height="600" loading="eager" decoding="async" />
+            </div>
           </div>
           <div class="hero__float-card glass-card hero__float-card--1">
             <strong>Cifrado</strong>
@@ -156,7 +158,9 @@
       <div class="container patients__grid">
         <div class="patients__visual reveal">
           <div class="patients__mockup glass-card">
-            <span class="placeholder placeholder--mobile">PLACEHOLDER APP CELULAR</span>
+            <div class="media-frame media-frame--phone">
+              <img src="img/Mock up inicio paciente.png" alt="Panel principal de Velity en el celular" width="600" height="1200" loading="lazy" decoding="async" />
+            </div>
           </div>
         </div>
         <div class="patients__content reveal">
@@ -187,18 +191,24 @@
         </header>
         <div class="doctors__showcase">
           <div class="doctors__panel doctors__panel--main glass-card reveal">
-            <span class="placeholder placeholder--dashboard">PLACEHOLDER PANEL MÉDICO</span>
+            <div class="media-frame media-frame--dashboard">
+              <img src="img/mockup home doctor.png" alt="Inicio del panel médico en Velity" width="900" height="560" loading="lazy" decoding="async" />
+            </div>
             <div class="doctors__panel-meta">
               <span>Contexto del paciente en vivo</span>
               <span class="pill">Espacio de trabajo inteligente</span>
             </div>
           </div>
           <div class="doctors__side">
-            <div class="doctors__mini glass-card reveal">
-              <span class="placeholder placeholder--agenda">PLACEHOLDER VISTA DE AGENDA</span>
+            <div class="doctors__mini doctors__mini--agenda glass-card reveal">
+              <div class="media-slot media-slot--crop-left" title="Vista tipo agenda">
+                <img src="img/mockup home doctor.png" alt="Detalle de agenda en el panel médico" width="400" height="220" loading="lazy" decoding="async" />
+              </div>
             </div>
-            <div class="doctors__mini glass-card reveal">
-              <span class="placeholder placeholder--patients">PLACEHOLDER GESTIÓN DE PACIENTES</span>
+            <div class="doctors__mini doctors__mini--patients glass-card reveal">
+              <div class="media-slot media-slot--crop-right" title="Vista tipo gestión de pacientes">
+                <img src="img/mockup home doctor.png" alt="Detalle del panel de pacientes" width="400" height="220" loading="lazy" decoding="async" />
+              </div>
             </div>
           </div>
         </div>
@@ -416,7 +426,7 @@
   <footer class="site-footer">
     <div class="container footer__grid">
       <div class="footer__brand">
-        <span class="placeholder placeholder--logo footer__logo">LOGO PLACEHOLDER</span>
+        <img class="footer__brand-img" src="img/velity logo.png" alt="Velity" width="140" height="44" loading="lazy" decoding="async" />
         <p class="footer__mission">Velity unifica la información médica para que pacientes y profesionales trabajen juntos con más confianza, también para quienes no cuentan con obra social o prepaga.</p>
       </div>
       <nav class="footer__nav" aria-label="Pie de página">
