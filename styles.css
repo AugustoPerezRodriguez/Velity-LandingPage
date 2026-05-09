@@ -988,7 +988,8 @@ button {
   overflow: hidden;
   line-height: 0;
 }
-.doctors__mini-media--agenda img {
+.doctors__mini-media--agenda img,
+.doctors__mini-media--patients img {
   width: 100%;
   height: auto;
   min-height: 160px;
